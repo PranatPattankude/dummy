@@ -3,7 +3,7 @@ name: Dummy Build
 on:
   push:
     branches:
-      - main   # change to your test branch if needed
+      - Dev   # change to your test branch if needed
 
 jobs:
   dummy-job:

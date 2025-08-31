@@ -1,0 +1,20 @@
+name: Dummy Build
+
+on:
+  push:
+    branches:
+      - main   # change to your test branch if needed
+
+jobs:
+  dummy-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Simulate 15 min build
+        run: |
+          echo "Starting dummy build that will take ~15 minutes..."
+          sleep 900   # 900 seconds = 15 minutes
+          echo "Dummy build finished."

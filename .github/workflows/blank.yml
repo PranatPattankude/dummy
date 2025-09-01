@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: run
+        run: jdfj
 
       - name: Simulate 15 min build
         run: |

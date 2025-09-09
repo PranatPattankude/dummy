@@ -1,3 +1,3 @@
 # dummy
 
-new one 2
+new one
